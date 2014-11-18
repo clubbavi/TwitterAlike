@@ -14,12 +14,14 @@
           <%= f.password_field :password, autocomplete: "off", :class => "col-md-6 form-control" %>
         </div>
 
-        <div class="actions" style="padding-top: 10px">
-          <%= f.submit "Log in", :class => "btn btn-default" %>
+        <div class="actions" align="center">
+          <%= f.submit "Log in", :class => "btn btn-default", :style => "margin-top: 10px; margin-bottom: 10px;"  %>
         </div>
       <% end %>
 
-      <%= render "devise/shared/links" %>
+      <div class="actions" align="center">
+        <%= render "devise/shared/links" %>
+      </div>
     </div>
   </div>
 </div>
